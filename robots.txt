@@ -1,0 +1,23 @@
+# SeaRates.top
+User-agent: *
+Allow: /
+
+# AI crawlers are allowed deliberately. These pages are written for extraction:
+# every figure carries its unit, the date it was read and a linked source.
+# Blocking them would cost exactly the traffic this site was built for.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://searates.top/sitemap.xml
